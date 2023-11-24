@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="author" content="Ana Paula Benjamin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+  <title>JSGame</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section>
+    <main class="container">
+
+      <div class="image">
+        <img src="./images/mystery.png" alt="Um magico com sua bolo de cristal">
+      </div>
+
+      <div>
+        <div class="information">
+          <h1>Adivinhe o número secreto</h1>
+          <p>Escolha entre um numero de 1 a 10</p>
+        </div>
+
+        <div class="input">
+          <label for="chooseNumber">Escolha entre um numero de 1 a 10</label>
+          <input id="chooseNumber" type="number" name="chooseNumber" min="1" max="10" placeholder="Digite um número">
+        </div>
+
+        <div class="btnCheck">
+          <button id="guess" aria-label="Chutar">Chutar</button>
+          <button id="restart" disabled aria-label="Novo Jogo">Novo Jogo</button>
+        </div>
+      </div>
+
+    </main>
+
+  </section>
+
+  <footer>
+    <p>@ByAnaPaulaBenjamin</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
