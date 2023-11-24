@@ -8,4 +8,4 @@ Um Jogo de adivinhação feito com CSS para a estilização o HTML para a estrut
 
 ### Link
 
-- Solução URL: [Add solution URL here](https://anapaulabenjamin.github.io/javascriptGame/)
+- Solução URL: [JavaScript Game](https://anapaulabenjamin.github.io/javascriptGame/)
